@@ -1,0 +1,67 @@
+<resources>
+    <string name="api_key">AIzaSyC0KfSeO0yRPDRtFhPF6QfBSgDqcjHYwVU</string>
+
+    <string name="app_name">Restaurant Guru</string>
+    <string name="splash_one">THE</string>
+    <string name="splash_two">RESTAURANT</string>
+    <string name="splash_three">GURU</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="category_prompt">Category</string>
+    <string-array name="category_array">
+        <item>Any</item>
+        <item>American</item>
+        <item>Asian Fusion</item>
+        <item>Breakfast</item>
+        <item>Buffets</item>
+        <item>Burgers</item>
+        <item>Cafes</item>
+        <item>Cajun</item>
+        <item>Chicken Wings</item>
+        <item>Chinese</item>
+        <item>Deli</item>
+        <item>Diner</item>
+        <item>Fast Food</item>
+        <item>Fish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Mexican</item>
+        <item>Pizza</item>
+        <item>Polish</item>
+        <item>Sandwiches</item>
+        <item>Seafood</item>
+        <item>Sushi</item>
+        <item>Vegetarian</item>
+    </string-array>
+
+    <string name="price_prompt">Price</string>
+    <string-array name="price_array">
+        <item>Any</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+        <item>$$$$$</item>
+    </string-array>
+
+    <string name="range_prompt">Maximum Range</string>
+    <string-array name="range_array">
+        <item>Any</item>
+        <item>1 Mile</item>
+        <item>3 Miles</item>
+        <item>5 Miles</item>
+        <item>10 Miles</item>
+    </string-array>
+
+</resources>

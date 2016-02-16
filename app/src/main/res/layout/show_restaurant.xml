@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="100dp"
+        android:text="New Text"
+        android:id="@+id/restaurant_name"
+        android:layout_weight="0.17"
+        android:textSize="20sp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_rating_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom" />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Save Rating"
+        android:id="@+id/save_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        android:onClick="save_btn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Saved Data"
+        android:id="@+id/show_save_data_btn"
+        android:layout_weight="0.05"
+        android:onClick="showSavedData" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIDE SAVED DATE"
+        android:id="@+id/hide_saved_data"
+        android:onClick="hideSavedData"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/showSaveData"
+        android:layout_weight="0.34"
+        android:maxLines="1000"
+        android:scrollbars="vertical"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Saved Data"
+        android:id="@+id/delete_btn"
+        android:onClick="deleteFile" />
+
+    <Button
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:text="RETURN TO HOME SCREEN"
+        android:id="@+id/home_button"
+        android:layout_weight="0.06"
+        android:onClick="back_to_home_btn" />
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_color"
+    android:weightSum="1">
+
+    <Spinner
+        android:id="@+id/first_spinner"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:prompt="@string/category_prompt"
+        android:clickable="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="@color/secondary_color"
+        android:popupBackground="@color/secondary_color"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/textView2"
+        android:layout_margin="10dp"/>
+
+    <Spinner
+        android:id="@+id/second_spinner"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:prompt="@string/price_prompt"
+        android:popupBackground="@color/secondary_color"
+        android:background="@color/secondary_color"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/textView3"
+        android:layout_margin="10dp" />
+
+    <Spinner
+        android:id="@+id/third_spinner"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:prompt="@string/range_prompt"
+        android:popupBackground="@color/secondary_color"
+        android:background="@color/secondary_color"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/third_spinner"
+        android:layout_margin="10dp"
+
+        android:background="@color/secondary_color" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/category_prompt"
+        android:id="@+id/textView"
+        android:layout_above="@+id/first_spinner"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/price_prompt"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/second_spinner"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/range_prompt"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/third_spinner"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
